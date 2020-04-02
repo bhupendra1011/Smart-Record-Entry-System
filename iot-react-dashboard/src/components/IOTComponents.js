@@ -49,13 +49,6 @@ function IOTComponents() {
         "RC522 - RFID Reader / Writer 13.56MHz,uses SPI to communicate with microcontrollers.  ",
       thumbnail:
         "https://www.electronicscomp.com/image/cache/catalog/rc522-rfid-reader-writer-module-india-228x228.jpg"
-    },
-    {
-      name: "RED LED - 2Pin",
-      info:
-        "It is a 3mm Red DIP LED. An LED is a two-lead semiconductor light source, which emits lights when activated. ",
-      thumbnail:
-        "https://robu.in/wp-content/uploads/2019/10/3mm-Green-DIP-LED-3.jpg"
     }
   ];
 

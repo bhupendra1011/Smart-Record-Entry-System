@@ -6,13 +6,19 @@ import { Grid, useMediaQuery } from "@material-ui/core";
 
 function App() {
   const greatherThanSmall = useMediaQuery(theme => theme.breakpoints.up("sm"));
+  const greatherThanMedium = useMediaQuery(theme => theme.breakpoints.up("md"));
   return (
     <>
       <Header />
       <Grid
         container
-        spacing={3}
-        style={{ paddingTop: greatherThanSmall ? 80 : 20 }}
+        spacing={1}
+        style={{
+          paddingTop: greatherThanSmall ? 100 : 60,
+          paddingLeft: greatherThanMedium ? 30 : 0,
+          paddingRight: greatherThanMedium ? 30 : 0,
+          position: greatherThanMedium ? "fixed" : "initial"
+        }}
       >
         <Grid item xs={12} md={7}>
           <InfoTable />
