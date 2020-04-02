@@ -14,7 +14,7 @@ function Header() {
     <AppBar position="fixed">
       <Toolbar>
         <PanToolIcon />
-        <Typography className={classes.title} varaint="h6" component="h1">
+        <Typography className={classes.title} variant="h6" component="h1">
           Zero Contact Record Entry System
         </Typography>
       </Toolbar>
